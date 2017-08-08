@@ -15,3 +15,9 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore local environment image uploads
+/public/uploads
+
+# Ignore application configuration
+/config/application.yml
