@@ -25,8 +25,9 @@ body {
   margin-top: 14px;
 }
 
-.brand {
+.brand a {
   color: #125688;
+  text-decoration: none;
   font-size: 30px;
   font-family: "Pacifico", cursive;
 }
@@ -78,8 +79,28 @@ label {
   margin-top: 10px;
 }
 
+.gram-actions {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
 .gram-actions a {
   font-weight: bold;
   font-size: 16px;
-  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.comments {
+  padding: 20px;
+}
+
+.comment {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.comment-handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
 }
